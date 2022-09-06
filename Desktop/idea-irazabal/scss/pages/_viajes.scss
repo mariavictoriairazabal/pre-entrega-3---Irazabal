@@ -1,0 +1,63 @@
+/*page viajes*/
+    
+.viajes__disney{
+    text-align: left;
+    font-size: large;
+    border-width: 3px;
+    background-color:none;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    }
+
+.viajes__ny{
+    @extend .viajes__disney;
+}
+
+.viajes__paris{
+    @extend .viajes__disney;
+}
+.viajes__islasgalapagos{
+    @extend .viajes__disney;
+}
+.viajes__liubliana{
+    @extend .viajes__disney;
+}
+.viajes__liubliana{
+    @extend .viajes__disney;
+}
+.viajes__bodrum{
+    @extend .viajes__disney;
+}
+/*fin page viajes*/
+
+.disney_img{
+    width: 80%;
+}
+
+.ny_img{
+    width: 80%;
+}
+
+.paris_img{
+    width: 80%;
+}
+
+.londres_img{
+    width: 90%;
+}
+
+.islas_img{
+    width: 80%;
+}
+
+.liubliana_img{
+    width: 80%;
+}
+
+.bodrum_img{
+    width:90%;
+}
+
+.shangai_img{
+    width: 90%;
+}

@@ -1,0 +1,92 @@
+/* Header */
+@mixin align-font{
+    font-size: large;
+    text-align: center;
+
+}
+header{
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: hotpink;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type:none;
+    padding: 20px;
+}
+
+/*fin del header*/
+/*main*/
+
+.equipaje__img{
+width: 100%;  
+align-items: center;
+}
+
+.docs__img{
+width: 60%;
+align-items: center;
+}
+
+.section1{
+    @include align-font;
+    background-color:none;
+    list-style-type: none;
+}
+
+
+.section3{
+    @include align-font;
+    border-width: 3px;
+    display: grid;
+}
+
+.disneysect__img{
+width: 100%;
+}
+.parissect__img{
+width: 100%;
+}
+
+.nysect__img{
+width:100%;
+}
+
+/*fin del main*/
+/*footer*/
+footer{
+    background-color: antiquewhite;
+    padding: 20px;
+    justify-content: justify;
+    text-align: center; 
+}
+/*fin del footer*/
+
+/*banner*/
+.banner{
+    background-image: url('../resources/bannersunset.jpg');
+    text-align: center;
+    font-size: large;
+    border-color: antiquewhite;
+    border-width: 3px;
+    border-style: solid
+}
+
+.banner_text{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(235, 162, 190, 0.425);
+    padding: 15px;
+    border: 2px solid bisque;
+    
+}
+/*fin section banner*/
+
+.section2{
+    @include align-font;
+    border-width: 3px;
+    display: grid;
+}

@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+$color-principal: #f754a5;
+$tipo-principal: 'Franklin Gothic Medium';
+
+
+h1{
+    color: $color-principal;
+    font-family: $tipo-principal;
+    background: linear-gradient(pink,antiquewhite);
+    font-size:2rem;
+}
+
+h2{
+    color: $color-principal;
+    font-family: $tipo-principal;
+    background: linear-gradient(pink,antiquewhite);
+    font-size:2rem;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+text-decoration: none;
+}
+
+h3{
+    color: #1e90ff;
+    background-color: aliceblue;
+}
+p{
+    font-family: 'Franklin Gothic Medium';
+    background-color: rgba(80, 82, 82, 0.137);
+}
+
+div{
+    padding:30px;
+    margin:70px;
+}
+
+body{
+    display: grid;
+    background-color:antiquewhite;
+    }
+
+.align{
+    text-align: center;
+    padding: 15px;
+}
+
+p:hover{
+    background-color: rgba(255, 105, 180, 0.39);
+    transition-duration: 2s; 
+}
+
+.menu:hover{
+    background-color: rgba(255, 105, 180, 0.39);
+    transition-duration: 2s;
+}
+
+@media (max-width: 480px) {
+    header{
+        display: grid;
+        font-size: medium;
+    }
+    .section1{
+        font-size:x-large;
+    }
+    .section2{
+        display: grid;    
+    }
+    main{
+        font-size: x-large ;
+    }
+    .banner_text{
+        width: 100%;
+    }
+    .caja1{
+        display: grid;
+        font-size: large;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:700px){
+    .section2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        font-size: large;
+    }
+    .section3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: large;
+    }
+}
+
+@media (max-width:550px){
+    .menu{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+
